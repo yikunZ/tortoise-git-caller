@@ -16,4 +16,22 @@
         <listener class="com.github.yikunz.tortoisegitcaller.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </projectListeners>
+
+    <actions>
+        <action id="com.github.yikunz.tortoisegitcaller.actions.MenuRootAction" class="com.github.yikunz.tortoisegitcaller.actions.MenuRootAction"
+                text="Tortoise Git Operations Popup" description="Tortoise Git Operations Popup">
+            <add-to-group group-id="VcsGroups" anchor="first"/>
+        </action>
+
+        <group id="com.github.yikunz.tortoisegitcaller.actions.MenuRootAction.OperationPopList">
+            <action class="com.github.yikunz.tortoisegitcaller.actions.ShowLogAction" id="com.github.yikunz.tortoisegitcaller.actions.ShowLogAction"
+                    text="Show log" description="Show log">
+                <keyboard-shortcut first-keystroke="control G" second-keystroke="control L" keymap="$default"></keyboard-shortcut>
+            </action>
+            <action class="com.github.yikunz.tortoisegitcaller.actions.CommitAction" id="com.github.yikunz.tortoisegitcaller.actions.CommitAction"
+                    text="Show log" description="Show log">
+                <keyboard-shortcut first-keystroke="control G" second-keystroke="control C" keymap="$default"></keyboard-shortcut>
+            </action>
+        </group>
+    </actions>
 </idea-plugin>

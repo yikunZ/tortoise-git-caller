@@ -1,8 +1,11 @@
-package com.github.yikunz.tortoisegitcaller
+package com.github.yikunz.tortoisegitcaller.util
 
 import java.io.InputStreamReader
 import java.io.BufferedReader
 
+/**
+ * 所有操作tortoiseGit的代码都在这里了
+ */
 internal class Command {
     companion object {
         private val OPERATION_COMMAND = mapOf(

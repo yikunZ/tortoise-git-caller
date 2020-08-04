@@ -16,16 +16,10 @@
 ### Security
 ## [0.0.1]
 ### Added
-
-### Changed
-
-### Deprecated
-
-### Removed
-
-### Fixed
+- add action: log, commit
 
 ### Security
-## [0.0.1]
+## [0.0.2]
 ### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+- add global action: fetch, cleanup, diff, fetch, merge, full, push, rebase, resolve, revert, stashpop, stashsave, switch
+- add file action: fileBlame, fileDiff, fileLog

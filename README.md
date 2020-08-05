@@ -1,5 +1,5 @@
 <!-- Plugin description -->
-[Github](http)
+[Github](https://github.com/yikunZ/tortoise-git-caller)
 # Introduction
 This extension provides commands for launching common TortoiseGit dialogs from within Kotlin Code.
 

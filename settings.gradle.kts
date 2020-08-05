@@ -1,1 +1,1 @@
-rootProject.name = "TortoiseGitCaller"
+rootProject.name = "tortoise-git-caller"

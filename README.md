@@ -1,4 +1,5 @@
 <!-- Plugin description -->
+[Github](http)
 # Introduction
 This extension provides commands for launching common TortoiseGit dialogs from within Kotlin Code.
 

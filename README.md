@@ -1,9 +1,9 @@
 <!-- Plugin description -->
 [Github](https://github.com/yikunZ/tortoise-git-caller)
 # Introduction
-This extension provides commands for launching common TortoiseGit dialogs from within Kotlin Code.
+This extension provides commands for launching common TortoiseGit dialogs.
 
-You can execute these commands either by **menu -> VCS -> Tortoise Git Operations Popup**, or via keyboard shortcuts.
+You can execute these commands either by **menu -> VCS -> Tortoise Git Operations Popup** and **project pop dialog -> Tortoise Git File Operations** , or via keyboard shortcuts.
 
 Before use this plugin, first you must install the TortoiseGit by you self and make sure the command "TortoiseGitProc.exe" in CMD is usable.
 
@@ -28,6 +28,8 @@ Before use this plugin, first you must install the TortoiseGit by you self and m
 
 ## Current file shortcuts:
 - (G)it File (L)og - Ctrl+Shift+G, L
+- (G)it File R(e)solve - Ctrl+Shift+G, E
+- (G)it File Re(v)ert - Ctrl+Shift+G, V
 - (G)it File (B)lame - Ctrl+Shift+G, B
 - (G)it File (D)iff - Ctrl+Shift+G, D
 

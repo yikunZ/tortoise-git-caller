@@ -20,4 +20,9 @@ internal class FileDiffAction : AnAction("File diff") {
             Command.diff(path)
         }
     }
+
+    override fun update(e: AnActionEvent) {
+        val path = e.getData(CommonDataKeys.PSI_FILE)?.virtualFile?.path
+        e.presentation.isEnabledAndVisible = path != null
+    }
 }

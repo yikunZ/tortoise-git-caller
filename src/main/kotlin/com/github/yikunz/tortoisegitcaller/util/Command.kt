@@ -20,7 +20,8 @@ internal class Command {
                 Operation.CLEAN_UP to "cleanup",
                 Operation.DIFF to "diff",
                 Operation.RESOLVE to "resolve",
-                Operation.BLAME to "blame"
+                Operation.BLAME to "blame",
+                Operation.REF_LOG to "reflog"
         )
 
         fun log(path: String) {
@@ -83,6 +84,10 @@ internal class Command {
             exec(OPERATION_COMMAND[Operation.BLAME].orEmpty(), path)
         }
 
+        fun refLog(path: String) {
+            exec(OPERATION_COMMAND[Operation.REF_LOG].orEmpty(), path)
+        }
+
         private fun exec(operation: String, path: String) {
             val rt = Runtime.getRuntime()
             val command = "TortoiseGitProc.exe /command:$operation /path:\"$path\""
@@ -107,5 +112,6 @@ enum class Operation {
     CLEAN_UP,
     DIFF,
     RESOLVE,
-    BLAME
+    BLAME,
+    REF_LOG
 }

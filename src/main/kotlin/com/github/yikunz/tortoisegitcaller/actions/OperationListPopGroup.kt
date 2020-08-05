@@ -4,7 +4,7 @@ import com.intellij.openapi.actionSystem.DefaultActionGroup
 
 class OperationListPopGroup : DefaultActionGroup() {
     init {
-        // global
+        // global operations
         addAction(ShowLogAction())
         addAction(CommitAction())
         addAction(FetchAction())
@@ -20,10 +20,6 @@ class OperationListPopGroup : DefaultActionGroup() {
         addAction(CleanUpAction())
         addAction(DiffAction())
         addAction(ResolveAction())
-
-        // about file
-        addAction(FileLogAction())
-        addAction(FileBlameAction())
-        addAction(FileDiffAction())
+        addAction(RefLogAction())
     }
 }

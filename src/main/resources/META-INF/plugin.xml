@@ -8,11 +8,46 @@
     <depends>com.intellij.modules.platform</depends>
 
     <actions>
-        <action id="com.github.yikunz.tortoisegitcaller.actions.MenuRootAction"
-                class="com.github.yikunz.tortoisegitcaller.actions.MenuRootAction"
+        <action id="com.github.yikunz.tortoisegitcaller.actions.VcsGroupsAction"
+                class="com.github.yikunz.tortoisegitcaller.actions.VcsGroupsAction"
                 text="Tortoise Git Operations Popup" description="Tortoise Git Operations Popup">
             <add-to-group group-id="VcsGroups" anchor="first"/>
         </action>
+
+        <group id="com.github.yikunz.tortoisegitcaller.actions.ProjectViewPopupMenuGroup"
+                text="Tortoise Git File Operations" description="Tortoise Git File Operations" popup="true">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="first" />
+            <action class="com.github.yikunz.tortoisegitcaller.actions.FileBlameAction"
+                    id="com.github.yikunz.tortoisegitcaller.actions.FileBlameAction"
+                    text="File blame" description="File blame">
+                <keyboard-shortcut first-keystroke="control shift G" second-keystroke="B"
+                                   keymap="$default"></keyboard-shortcut>
+            </action>
+            <action class="com.github.yikunz.tortoisegitcaller.actions.FileLogAction"
+                    id="com.github.yikunz.tortoisegitcaller.actions.FileLogAction"
+                    text="File log" description="File log">
+                <keyboard-shortcut first-keystroke="control shift G" second-keystroke="L"
+                                   keymap="$default"></keyboard-shortcut>
+            </action>
+            <action class="com.github.yikunz.tortoisegitcaller.actions.FileDiffAction"
+                    id="com.github.yikunz.tortoisegitcaller.actions.FileDiffAction"
+                    text="File diff" description="File diff">
+                <keyboard-shortcut first-keystroke="control shift G" second-keystroke="D"
+                                   keymap="$default"></keyboard-shortcut>
+            </action>
+            <action class="com.github.yikunz.tortoisegitcaller.actions.FileResolveAction"
+                    id="com.github.yikunz.tortoisegitcaller.actions.FileResolveAction"
+                    text="File resolve" description="File resolve">
+                <keyboard-shortcut first-keystroke="control shift G" second-keystroke="E"
+                                   keymap="$default"></keyboard-shortcut>
+            </action>
+            <action class="com.github.yikunz.tortoisegitcaller.actions.FileRevertAction"
+                    id="com.github.yikunz.tortoisegitcaller.actions.FileRevertAction"
+                    text="File revert" description="File revert">
+                <keyboard-shortcut first-keystroke="control shift G" second-keystroke="V"
+                                   keymap="$default"></keyboard-shortcut>
+            </action>
+        </group>
 
         <action class="com.github.yikunz.tortoisegitcaller.actions.ShowLogAction"
                 id="com.github.yikunz.tortoisegitcaller.actions.ShowLogAction"
@@ -110,7 +145,6 @@
             <keyboard-shortcut first-keystroke="control shift G" second-keystroke="L"
                                keymap="$default"></keyboard-shortcut>
         </action>
-
         <action class="com.github.yikunz.tortoisegitcaller.actions.FileDiffAction"
                 id="com.github.yikunz.tortoisegitcaller.actions.FileDiffAction"
                 text="File diff" description="File diff">

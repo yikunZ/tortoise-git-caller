@@ -3,7 +3,7 @@ package com.github.yikunz.tortoisegitcaller.actions
 import com.intellij.openapi.actionSystem.*
 import com.intellij.openapi.ui.popup.JBPopupFactory
 
-internal class MenuRootAction : AnAction() {
+internal class VcsGroupsAction : AnAction() {
     override fun actionPerformed(e: AnActionEvent) {
         val actionGroup = OperationListPopGroup()
         val actionGroupPopup = JBPopupFactory.getInstance()

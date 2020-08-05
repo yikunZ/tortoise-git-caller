@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.github.yikunz.tortoisegitcaller</id>
-    <name>tortoise-git-caller</name>
+    <name>Tortoise Git Caller</name>
     <vendor>yikunz</vendor>
 
     <!-- Product and plugin compatibility requirements -->

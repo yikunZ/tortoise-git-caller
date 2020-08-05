@@ -1,8 +1,5 @@
 package com.github.yikunz.tortoisegitcaller.util
 
-import java.io.InputStreamReader
-import java.io.BufferedReader
-
 /**
  * 所有操作tortoiseGit的代码都在这里了
  */
@@ -86,23 +83,11 @@ internal class Command {
             exec(OPERATION_COMMAND[Operation.BLAME].orEmpty(), path)
         }
 
-        private fun exec(operation: String, path: String): String {
+        private fun exec(operation: String, path: String) {
             val rt = Runtime.getRuntime()
-            var command = "TortoiseGitProc.exe /command:$operation /path:\"$path\""
-            var cmdCommand = "cmd.exe /c $command"
-            val p = rt.exec(cmdCommand, null)
-
-            val br = BufferedReader(InputStreamReader(p.inputStream))
-            val sb = StringBuffer()
-            var inline: String?
-
-            inline = br.readLine()
-            while (null != inline) {
-                sb.append(inline).append("\n")
-                inline = br.readLine()
-            }
-
-            return sb.toString()
+            val command = "TortoiseGitProc.exe /command:$operation /path:\"$path\""
+            val cmdCommand = "cmd.exe /c $command"
+            rt.exec(cmdCommand, null)
         }
     }
 }

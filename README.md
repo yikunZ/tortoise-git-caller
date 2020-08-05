@@ -1,3 +1,4 @@
+<!-- Plugin description -->
 # Introduction
 This extension provides commands for launching common TortoiseGit dialogs from within Kotlin Code.
 
@@ -33,14 +34,6 @@ If you want to customize shortcuts, you can via File -> Settings -> keymap.
 
 ## Shortcut conflicts
 Since the default shortcuts will make Ctrl+G (Go To Line) inaccessible, you can change them, or just change the one for "Go To Line" to be Ctrl+G, G
-
-<!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
-
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be
-extracted by the [Gradle](/build.gradle.kts) during the build process.
-
-To keep everything working, do not remove `<!-- ... -->` sections. 
 <!-- Plugin description end -->
 
 Plugin based on the [IntelliJ Platform Plugin Template][template].

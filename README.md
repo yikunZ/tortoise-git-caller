@@ -10,25 +10,25 @@ Before use this plugin, first you must install the TortoiseGit by you self and m
 
 ## Global shortcuts:
 
-(G)it (C)ommit - Ctrl+G, C
-(G)it (F)etch - Ctrl+G, F
-(G)it (L)og - Ctrl+G, L
-(G)it (M)erge - Ctrl+G, M
-(G)it (P)ull - Ctrl+G, P
-(G)it P(u)sh - Ctrl+G, U
-(G)it (R)ebase - Ctrl+G, R
-(G)it Re(v)ert - Ctrl+G, V
-(G)it Stash-P(o)p - Ctrl+G, O
-(G)it Stash-S(a)ve - Ctrl+G, A
-(G)it (S)witch - Ctrl+G, S
-(G)it Clea(n)up - Ctrl+G, N
-(G)it Repository (D)iff - Ctrl+G, D
-(G)it R(e)solve - Ctrl+G, E
+- (G)it (C)ommit - Ctrl+G, C
+- (G)it (F)etch - Ctrl+G, F
+- (G)it (L)og - Ctrl+G, L
+- (G)it (M)erge - Ctrl+G, M
+- (G)it (P)ull - Ctrl+G, P
+- (G)it P(u)sh - Ctrl+G, U
+- (G)it (R)ebase - Ctrl+G, R
+- (G)it Re(v)ert - Ctrl+G, V
+- (G)it Stash-P(o)p - Ctrl+G, O
+- (G)it Stash-S(a)ve - Ctrl+G, A
+- (G)it (S)witch - Ctrl+G, S
+- (G)it Clea(n)up - Ctrl+G, N
+- (G)it Repository (D)iff - Ctrl+G, D
+- (G)it R(e)solve - Ctrl+G, E
 
 ## Current file shortcuts:
-(G)it File (L)og - Ctrl+Shift+G, L
-(G)it File (B)lame - Ctrl+Shift+G, B
-(G)it File (D)iff - Ctrl+Shift+G, D
+- (G)it File (L)og - Ctrl+Shift+G, L
+- (G)it File (B)lame - Ctrl+Shift+G, B
+- (G)it File (D)iff - Ctrl+Shift+G, D
 
 If you want to customize shortcuts, you can via File -> Settings -> keymap.
 

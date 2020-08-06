@@ -19,3 +19,7 @@ bug fix: open the dialog will block the IDEA
 ### Added
 - add global action: reflog
 - add file action: fileRevert,fileResolve
+
+## [0.0.5]
+### Updated
+- fix bug:shortcut is wrong.

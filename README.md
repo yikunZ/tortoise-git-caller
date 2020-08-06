@@ -1,7 +1,7 @@
 <!-- Plugin description -->
 [Github](https://github.com/yikunZ/tortoise-git-caller)
 # Introduction
-This extension provides commands for launching common TortoiseGit dialogs.
+This plugin provides commands for launching common TortoiseGit dialogs.
 
 You can execute these commands either by **menu -> VCS -> Tortoise Git Operations Popup** and **project pop dialog -> Tortoise Git File Operations** , or via keyboard shortcuts.
 

@@ -49,9 +49,9 @@
             </action>
         </group>
 
-        <action class="com.github.yikunz.tortoisegitcaller.actions.ShowLogAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.ShowLogAction"
-                text="Show log" description="Show log">
+        <action class="com.github.yikunz.tortoisegitcaller.actions.LogAction"
+                id="com.github.yikunz.tortoisegitcaller.actions.LogAction"
+                text="Log" description="Log">
             <keyboard-shortcut first-keystroke="control G" second-keystroke="L"
                                keymap="$default"></keyboard-shortcut>
         </action>
@@ -100,13 +100,13 @@
         <action class="com.github.yikunz.tortoisegitcaller.actions.StashSaveAction"
                 id="com.github.yikunz.tortoisegitcaller.actions.StashSaveAction"
                 text="Stash save" description="Stash save">
-            <keyboard-shortcut first-keystroke="control G" second-keystroke="I"
+            <keyboard-shortcut first-keystroke="control G" second-keystroke="A"
                                keymap="$default"></keyboard-shortcut>
         </action>
         <action class="com.github.yikunz.tortoisegitcaller.actions.StashPopAction"
                 id="com.github.yikunz.tortoisegitcaller.actions.StashPopAction"
                 text="Stash pop" description="Stash pop">
-            <keyboard-shortcut first-keystroke="control G" second-keystroke="S"
+            <keyboard-shortcut first-keystroke="control G" second-keystroke="O"
                                keymap="$default"></keyboard-shortcut>
         </action>
         <action class="com.github.yikunz.tortoisegitcaller.actions.SwitchAction"

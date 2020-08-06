@@ -5,7 +5,7 @@ import com.intellij.openapi.actionSystem.DefaultActionGroup
 class OperationListPopGroup : DefaultActionGroup() {
     init {
         // global operations
-        addAction(ShowLogAction())
+        addAction(LogAction())
         addAction(CommitAction())
         addAction(FetchAction())
         addAction(MergeAction())

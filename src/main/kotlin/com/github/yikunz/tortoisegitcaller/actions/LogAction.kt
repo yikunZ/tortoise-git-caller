@@ -4,7 +4,7 @@ import com.github.yikunz.tortoisegitcaller.util.Command
 import com.intellij.openapi.actionSystem.*
 import javax.swing.KeyStroke
 
-internal class ShowLogAction : AnAction("Show log") {
+internal class LogAction : AnAction("Log") {
     init {
         // 这边的设置快捷键的代码不起作用，只是在操作弹出窗的操作列表中有个展示，真正起到快捷键功能的代码在resources/META-INF/plugin.xml中
         // 如果这边不设置的话将在列表中不会显示快捷键按钮，而xml中你的代码不会展示按钮但起到了真正的功能

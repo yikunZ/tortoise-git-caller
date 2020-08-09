@@ -12,6 +12,8 @@ plugins {
     id("org.jetbrains.intellij") version "0.4.21"
     // gradle-changelog-plugin - read more: https://github.com/JetBrains/gradle-changelog-plugin
     id("org.jetbrains.changelog") version "0.4.0"
+    // detekt linter - read more: https://detekt.github.io/detekt/kotlindsl.html
+    id("io.gitlab.arturbosch.detekt") version "1.10.0"
 }
 
 // Import variables from gradle.properties file

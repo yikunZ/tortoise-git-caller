@@ -39,6 +39,18 @@ If you want to customize shortcuts, you can via File -> Settings -> keymap.
 Since the default shortcuts will make Ctrl+G (Go To Line) inaccessible, you can change them, or just change the one for "Go To Line" to be Ctrl+G, G
 <!-- Plugin description end -->
 
+# Demonstrate
+Via **menu -> VCS -> Tortoise Git Operations Popup**
+
+![avatar](image/1.gif)
+
+
+
+Via **project pop dialog -> Tortoise Git File Operations**
+
+![avatar](image/2.gif)
+
 Plugin based on the [IntelliJ Platform Plugin Template][template].
 
 [template]: https://github.com/JetBrains/intellij-platform-plugin-template
+

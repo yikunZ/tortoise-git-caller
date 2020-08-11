@@ -3,7 +3,7 @@
 # Introduction
 This plugin provides commands for launching common TortoiseGit dialogs.
 
-You can execute these commands either by **menu -> VCS -> Tortoise Git Operations Popup** and **project pop dialog -> Tortoise Git File Operations** , or via keyboard shortcuts.
+You can execute these commands either by **menu -> VCS -> Tortoise Git Operations Popup** and **Project board -> put mouse on a file -> right-click menu -> click 'Tortoise Git File Operations'** , or via keyboard shortcuts.
 
 Before use this plugin, first you must install the TortoiseGit by you self and make sure the command "TortoiseGitProc.exe" in CMD is usable.
 

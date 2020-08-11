@@ -17,138 +17,120 @@
         <group id="com.github.yikunz.tortoisegitcaller.actions.ProjectViewPopupMenuGroup"
                 text="Tortoise Git File Operations" description="Tortoise Git File Operations" popup="true">
             <add-to-group group-id="ProjectViewPopupMenu" anchor="first" />
-            <action class="com.github.yikunz.tortoisegitcaller.actions.FileBlameAction"
-                    id="com.github.yikunz.tortoisegitcaller.actions.FileBlameAction"
+            <action class="com.github.yikunz.tortoisegitcaller.actions.file.FileBlameAction"
+                    id="com.github.yikunz.tortoisegitcaller.actions.file.FileBlameAction"
                     text="File blame" description="File blame">
                 <keyboard-shortcut first-keystroke="control shift G" second-keystroke="B"
                                    keymap="$default"></keyboard-shortcut>
             </action>
-            <action class="com.github.yikunz.tortoisegitcaller.actions.FileLogAction"
-                    id="com.github.yikunz.tortoisegitcaller.actions.FileLogAction"
+            <action class="com.github.yikunz.tortoisegitcaller.actions.file.FileLogAction"
+                    id="com.github.yikunz.tortoisegitcaller.actions.file.FileLogAction"
                     text="File log" description="File log">
                 <keyboard-shortcut first-keystroke="control shift G" second-keystroke="L"
                                    keymap="$default"></keyboard-shortcut>
             </action>
-            <action class="com.github.yikunz.tortoisegitcaller.actions.FileDiffAction"
-                    id="com.github.yikunz.tortoisegitcaller.actions.FileDiffAction"
+            <action class="com.github.yikunz.tortoisegitcaller.actions.file.FileDiffAction"
+                    id="com.github.yikunz.tortoisegitcaller.actions.file.FileDiffAction"
                     text="File diff" description="File diff">
                 <keyboard-shortcut first-keystroke="control shift G" second-keystroke="D"
                                    keymap="$default"></keyboard-shortcut>
             </action>
-            <action class="com.github.yikunz.tortoisegitcaller.actions.FileResolveAction"
-                    id="com.github.yikunz.tortoisegitcaller.actions.FileResolveAction"
+            <action class="com.github.yikunz.tortoisegitcaller.actions.file.FileResolveAction"
+                    id="com.github.yikunz.tortoisegitcaller.actions.file.FileResolveAction"
                     text="File resolve" description="File resolve">
                 <keyboard-shortcut first-keystroke="control shift G" second-keystroke="E"
                                    keymap="$default"></keyboard-shortcut>
             </action>
-            <action class="com.github.yikunz.tortoisegitcaller.actions.FileRevertAction"
-                    id="com.github.yikunz.tortoisegitcaller.actions.FileRevertAction"
+            <action class="com.github.yikunz.tortoisegitcaller.actions.file.FileRevertAction"
+                    id="com.github.yikunz.tortoisegitcaller.actions.file.FileRevertAction"
                     text="File revert" description="File revert">
                 <keyboard-shortcut first-keystroke="control shift G" second-keystroke="V"
                                    keymap="$default"></keyboard-shortcut>
             </action>
         </group>
 
-        <action class="com.github.yikunz.tortoisegitcaller.actions.LogAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.LogAction"
+        <action class="com.github.yikunz.tortoisegitcaller.actions.global.LogAction"
+                id="com.github.yikunz.tortoisegitcaller.actions.global.LogAction"
                 text="Log" description="Log">
             <keyboard-shortcut first-keystroke="control G" second-keystroke="L"
                                keymap="$default"></keyboard-shortcut>
         </action>
-        <action class="com.github.yikunz.tortoisegitcaller.actions.CommitAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.CommitAction"
+        <action class="com.github.yikunz.tortoisegitcaller.actions.global.CommitAction"
+                id="com.github.yikunz.tortoisegitcaller.actions.global.CommitAction"
                 text="Commit" description="Commit">
             <keyboard-shortcut first-keystroke="control G" second-keystroke="C"
                                keymap="$default"></keyboard-shortcut>
         </action>
-        <action class="com.github.yikunz.tortoisegitcaller.actions.FetchAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.FetchAction"
+        <action class="com.github.yikunz.tortoisegitcaller.actions.global.FetchAction"
+                id="com.github.yikunz.tortoisegitcaller.actions.global.FetchAction"
                 text="Fetch" description="Fetch">
             <keyboard-shortcut first-keystroke="control G" second-keystroke="F"
                                keymap="$default"></keyboard-shortcut>
         </action>
-        <action class="com.github.yikunz.tortoisegitcaller.actions.MergeAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.MergeAction"
+        <action class="com.github.yikunz.tortoisegitcaller.actions.global.MergeAction"
+                id="com.github.yikunz.tortoisegitcaller.actions.global.MergeAction"
                 text="Merge" description="Merge">
             <keyboard-shortcut first-keystroke="control G" second-keystroke="M"
                                keymap="$default"></keyboard-shortcut>
         </action>
-        <action class="com.github.yikunz.tortoisegitcaller.actions.PullAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.PullAction"
+        <action class="com.github.yikunz.tortoisegitcaller.actions.global.PullAction"
+                id="com.github.yikunz.tortoisegitcaller.actions.global.PullAction"
                 text="Pull" description="Pull">
             <keyboard-shortcut first-keystroke="control G" second-keystroke="P"
                                keymap="$default"></keyboard-shortcut>
         </action>
-        <action class="com.github.yikunz.tortoisegitcaller.actions.PushAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.PushAction"
+        <action class="com.github.yikunz.tortoisegitcaller.actions.global.PushAction"
+                id="com.github.yikunz.tortoisegitcaller.actions.global.PushAction"
                 text="Push" description="Push">
             <keyboard-shortcut first-keystroke="control G" second-keystroke="U"
                                keymap="$default"></keyboard-shortcut>
         </action>
-        <action class="com.github.yikunz.tortoisegitcaller.actions.RebaseAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.RebaseAction"
+        <action class="com.github.yikunz.tortoisegitcaller.actions.global.RebaseAction"
+                id="com.github.yikunz.tortoisegitcaller.actions.global.RebaseAction"
                 text="Rebase" description="Rebase">
             <keyboard-shortcut first-keystroke="control G" second-keystroke="R"
                                keymap="$default"></keyboard-shortcut>
         </action>
-        <action class="com.github.yikunz.tortoisegitcaller.actions.RevertAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.RevertAction"
+        <action class="com.github.yikunz.tortoisegitcaller.actions.global.RevertAction"
+                id="com.github.yikunz.tortoisegitcaller.actions.global.RevertAction"
                 text="Revert" description="Revert">
             <keyboard-shortcut first-keystroke="control G" second-keystroke="V"
                                keymap="$default"></keyboard-shortcut>
         </action>
-        <action class="com.github.yikunz.tortoisegitcaller.actions.StashSaveAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.StashSaveAction"
+        <action class="com.github.yikunz.tortoisegitcaller.actions.global.StashSaveAction"
+                id="com.github.yikunz.tortoisegitcaller.actions.global.StashSaveAction"
                 text="Stash save" description="Stash save">
             <keyboard-shortcut first-keystroke="control G" second-keystroke="A"
                                keymap="$default"></keyboard-shortcut>
         </action>
-        <action class="com.github.yikunz.tortoisegitcaller.actions.StashPopAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.StashPopAction"
+        <action class="com.github.yikunz.tortoisegitcaller.actions.global.StashPopAction"
+                id="com.github.yikunz.tortoisegitcaller.actions.global.StashPopAction"
                 text="Stash pop" description="Stash pop">
             <keyboard-shortcut first-keystroke="control G" second-keystroke="O"
                                keymap="$default"></keyboard-shortcut>
         </action>
-        <action class="com.github.yikunz.tortoisegitcaller.actions.SwitchAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.SwitchAction"
+        <action class="com.github.yikunz.tortoisegitcaller.actions.global.SwitchAction"
+                id="com.github.yikunz.tortoisegitcaller.actions.global.SwitchAction"
                 text="Switch" description="Switch">
             <keyboard-shortcut first-keystroke="control G" second-keystroke="S"
                                keymap="$default"></keyboard-shortcut>
         </action>
-        <action class="com.github.yikunz.tortoisegitcaller.actions.CleanUpAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.CleanUpAction"
+        <action class="com.github.yikunz.tortoisegitcaller.actions.global.CleanUpAction"
+                id="com.github.yikunz.tortoisegitcaller.actions.global.CleanUpAction"
                 text="Clean up" description="Clean up">
             <keyboard-shortcut first-keystroke="control G" second-keystroke="N"
                                keymap="$default"></keyboard-shortcut>
         </action>
-        <action class="com.github.yikunz.tortoisegitcaller.actions.DiffAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.DiffAction"
+        <action class="com.github.yikunz.tortoisegitcaller.actions.global.DiffAction"
+                id="com.github.yikunz.tortoisegitcaller.actions.global.DiffAction"
                 text="Diff" description="Diff">
             <keyboard-shortcut first-keystroke="control G" second-keystroke="D"
                                keymap="$default"></keyboard-shortcut>
         </action>
-        <action class="com.github.yikunz.tortoisegitcaller.actions.ResolveAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.ResolveAction"
+        <action class="com.github.yikunz.tortoisegitcaller.actions.global.ResolveAction"
+                id="com.github.yikunz.tortoisegitcaller.actions.global.ResolveAction"
                 text="Resolve" description="Resolve">
             <keyboard-shortcut first-keystroke="control G" second-keystroke="E"
-                               keymap="$default"></keyboard-shortcut>
-        </action>
-        <action class="com.github.yikunz.tortoisegitcaller.actions.FileBlameAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.FileBlameAction"
-                text="File blame" description="File blame">
-            <keyboard-shortcut first-keystroke="control shift G" second-keystroke="B"
-                               keymap="$default"></keyboard-shortcut>
-        </action>
-        <action class="com.github.yikunz.tortoisegitcaller.actions.FileLogAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.FileLogAction"
-                text="File log" description="File log">
-            <keyboard-shortcut first-keystroke="control shift G" second-keystroke="L"
-                               keymap="$default"></keyboard-shortcut>
-        </action>
-        <action class="com.github.yikunz.tortoisegitcaller.actions.FileDiffAction"
-                id="com.github.yikunz.tortoisegitcaller.actions.FileDiffAction"
-                text="File diff" description="File diff">
-            <keyboard-shortcut first-keystroke="control shift G" second-keystroke="D"
                                keymap="$default"></keyboard-shortcut>
         </action>
     </actions>

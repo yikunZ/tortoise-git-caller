@@ -1,4 +1,4 @@
-package com.github.yikunz.tortoisegitcaller.actions
+package com.github.yikunz.tortoisegitcaller.actions.global
 
 import com.github.yikunz.tortoisegitcaller.util.Command
 import com.intellij.openapi.actionSystem.*

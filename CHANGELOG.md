@@ -23,3 +23,7 @@ bug fix: open the dialog will block the IDEA
 ## [0.0.5]
 ### Updated
 - fix bug:shortcut is wrong.
+
+## [1.0.0]
+### Updated
+- Stable version.

@@ -1,11 +1,19 @@
+支持在IDEA中通过快捷键或菜单栏中打开本机安装的TortoiseGit界面。
+
 <!-- Plugin description -->
 [Github](https://github.com/yikunZ/tortoise-git-caller)
+
 # Introduction
-This plugin provides commands for launching common TortoiseGit dialogs.
 
-You can execute these commands either by **menu -> VCS -> Tortoise Git Operations Popup** and **Project board -> put mouse on a file -> right-click menu -> click 'Tortoise Git File Operations'** , or via keyboard shortcuts.
+This plugin provides for IDEA launching TortoiseGit dialogs.
 
-Before use this plugin, first you must install the TortoiseGit by you self and make sure the command "TortoiseGitProc.exe" in CMD is usable.
+You can use it by 
+
+- **menu -> VCS -> Tortoise Git Operations Popup**  
+- **Project view-> put mouse on a file -> right-click menu -> click 'Tortoise Git File Operations'** 
+- **keyboard shortcuts**
+
+Before use this plugin, first you must install the TortoiseGit by you self and make sure the command "TortoiseGitProc" in Windows CMD is usable. This plugin just support to windows user. Because TortoiseGit only support Windows version.
 
 # Default shortcuts
 
@@ -27,6 +35,7 @@ Before use this plugin, first you must install the TortoiseGit by you self and m
 - (G)it R(e)solve - Ctrl+G, E
 
 ## Current file shortcuts:
+
 - (G)it File (L)og - Ctrl+Shift+G, L
 - (G)it File R(e)solve - Ctrl+Shift+G, E
 - (G)it File Re(v)ert - Ctrl+Shift+G, V
@@ -36,10 +45,12 @@ Before use this plugin, first you must install the TortoiseGit by you self and m
 If you want to customize shortcuts, you can via File -> Settings -> keymap.
 
 ## Shortcut conflicts
+
 Since the default shortcuts will make Ctrl+G (Go To Line) inaccessible, you can change them, or just change the one for "Go To Line" to be Ctrl+G, G
 <!-- Plugin description end -->
 
 # Demonstrate
+
 Via **menu -> VCS -> Tortoise Git Operations Popup**
 
 ![avatar](image/1.gif)
@@ -53,4 +64,3 @@ Via **project pop dialog -> Tortoise Git File Operations**
 Plugin based on the [IntelliJ Platform Plugin Template][template].
 
 [template]: https://github.com/JetBrains/intellij-platform-plugin-template
-

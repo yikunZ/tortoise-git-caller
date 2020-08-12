@@ -1,7 +1,7 @@
 这是一个插件：支持在IDEA中通过快捷键或菜单栏打开本机安装的TortoiseGit界面。
 
 <!-- Plugin description -->
-[Github](https://github.com/yikunZ/tortoise-git-caller)
+[Github](https://github.com/yikunZ/tortoise-git-caller) | [Plugin](https://plugins.jetbrains.com/plugin/14812-tortoise-git-caller)
 
 # Introduction
 

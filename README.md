@@ -1,4 +1,4 @@
-支持在IDEA中通过快捷键或菜单栏中打开本机安装的TortoiseGit界面。
+这是一个插件：支持在IDEA中通过快捷键或菜单栏打开本机安装的TortoiseGit界面。
 
 <!-- Plugin description -->
 [Github](https://github.com/yikunZ/tortoise-git-caller)

@@ -61,9 +61,6 @@ Via **project pop dialog -> Tortoise Git File Operations**
 
 ![avatar](image/2.gif)
 
-# Donate
-[Paypal](https://www.paypal.me/Zyikun)
-
 Plugin based on the [IntelliJ Platform Plugin Template][template].
 
 [template]: https://github.com/JetBrains/intellij-platform-plugin-template
